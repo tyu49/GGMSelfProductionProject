@@ -1,0 +1,207 @@
+@import url('https://cdn.jsdelivr.net/npm/galmuri/dist/galmuri.css');
+.choice { display: none; }
+.screen { display: none; }
+.links { display: none; }
+
+
+#lioff:checked ~ .screens .off,
+#litwo:checked ~ .screens .two,
+#lione:checked ~ .screens .one,
+#lithree:checked ~ .screens .three,
+#lifour:checked ~ .screens .four,
+#lifive:checked ~ .screens .five,
+#lisix:checked ~ .screens .six,
+#opGmail:checked ~ .screens .opGmail,
+#opGithub:checked ~ .screens .opGithub,
+#opTelephone:checked ~ .screens .opTelephone,
+#opDiscord:checked ~ .screens .opDiscord,
+#opInstagram:checked ~ .screens .opInstagram,
+#opMyIntroduction:checked ~ .screens .opMyIntroduction,
+#onGmail:checked ~ .screens .onGmail,
+#onDiscord:checked ~ .screens .onDiscord,
+#onTelephone:checked ~ .screens .onTelephone,
+#opTargetone:checked ~ .screens .opTargetone,
+#opTargettwo:checked ~ .screens .opTargettwo,
+#opStatone:checked ~ .screens .opStatone,
+#opStattwo:checked ~ .screens .opStattwo,
+#opStateone:checked ~ .screens .opStateone,
+#opStatetwo:checked ~ .screens .opStatetwo,
+#opSkillone:checked ~ .screens .opSkillone,
+#opSkilltwo:checked ~ .screens .opSkilltwo,
+#oplikesSinger:checked ~ .screens .oplikesSinger,
+#oplikesSong:checked ~ .screens .oplikesSong,
+#oplikesGame:checked ~ .screens .oplikesGame,
+#oplikesActivity:checked ~ .screens .oplikesActivity,
+#opSingerone:checked ~ .screens .opSingerone,
+#opSingertwo:checked ~ .screens .opSingertwo,
+#opSingerthree:checked ~ .screens .opSingerthree,
+#opSingerAoiko:checked ~ .screens .opSingerAoiko,
+#opSongone:checked ~ .screens .opSongone,
+#opSongtwo:checked ~ .screens .opSongtwo,
+#opSongthree:checked ~ .screens .opSongthree,
+#opSongfour:checked ~ .screens .opSongfour,
+#opSongfive:checked ~ .screens .opSongfive,
+#opSongsix:checked ~ .screens .opSongsix,
+#opSongseven:checked ~ .screens .opSongseven,
+#opSongeight:checked ~ .screens .opSongeight,
+#opSongnine:checked ~ .screens .opSongnine,
+#opSongten:checked ~ .screens .opSongten,
+#opGametwo:checked ~ .screens .opGametwo,
+#opGamethree:checked ~ .screens .opGamethree,
+#opGameone:checked ~ .screens .opGameone,
+#opGamefour:checked ~ .screens .opGamefour,
+#opActivityone:checked ~ .screens .opActivityone,
+#opHisone:checked ~ .screens .opHisone,
+#opHistwo:checked ~ .screens .opHistwo,
+#opHisthree:checked ~ .screens .opHisthree,
+#opHisfour:checked ~ .screens .opHisfour
+  {
+    display: block;
+  }
+#lioff:checked ~ #effect{
+    display:none;
+  }
+.screens{
+    font-family: Galmuri11, sans-serif;
+    color: rgb(7, 4, 40);
+  }
+
+#background{
+    width:200px;
+    height:200px;
+    background-color:#58850a;
+    position:absolute;
+    top:100px;
+    left:740px;
+    z-index: 10;
+  }
+#effect{
+    position:absolute;
+    top:100px;
+    left:740px;
+    width:200px;
+    height:200px;
+    z-index: 15;
+}
+#gameboy{
+    width: 450px;
+    height: 650px;
+    position:absolute;
+    z-index: 20;
+    left:600px;
+    top:0px;
+}
+.button{
+    padding: 12.3px;
+    position:absolute;
+    z-index: 25;
+    border-collapse: collapse;
+}
+.Left{
+    top: 405.5px;
+    left:705px;
+}
+.Right{
+    top: 405.5px;
+    left: 753px;
+}
+.Up{
+    top: 382px;
+    left: 729px;
+}
+.Down{
+    top: 430px;
+    left: 729px;
+}
+.A{
+    padding:16px;
+    border-radius: 50%;
+    top: 385px;
+    left: 919px;
+}
+.B{
+    padding:16px;
+    border-radius: 50%;
+    top: 408px;
+    left: 870px;
+}
+.start{
+    padding: 5px 20px 5px 20px;
+    transform: rotate(-27deg);
+    border-radius: 20px;
+    left:816px;
+    top: 485px;
+}
+.area{
+    position:absolute;
+    z-index: 13;
+    width:157px;
+    height:149px;
+    top:142px;
+    left:749px;
+}
+.selected{
+    padding-left: 8px;
+}
+.onSelection{
+    font-size: 12px;
+    padding-left: 8px;
+}
+.indexPoint{
+    position:absolute;
+    z-index: 14;
+    width:157px;
+    height:12px;
+    top:277px;
+    left:749px;
+    text-align: center;
+    font-size: 10px;
+}
+.dot{
+    margin:0px 4px;
+}
+.musicCover{
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    z-index: 13;
+    left:780px;
+    top:145px;
+}
+#aoikoImage{
+    width: 120px;
+    height: 120px;
+    position:absolute;
+    z-index: 13;
+    left:770px;
+    top:150px;
+}
+#aoikoName{
+    position:absolute;
+    z-index: 14;
+    width:157px;
+    height:12px;
+    top:268px;
+    left:760px;
+    text-align: center;
+    font-size: 18px;
+}
+.songArea{
+    position:absolute;
+    z-index: 14;
+    width:157px;
+    height:30px;
+    top:246px;
+    left:751px;
+    text-align: center;
+}
+.title{
+    display: block;
+    font-size: 12px;
+    top:-20px;
+    margin-bottom: -22px;
+}
+.artist{
+    display: block;
+    font-size: 10px;
+}
