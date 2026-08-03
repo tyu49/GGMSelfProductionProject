@@ -1,0 +1,79 @@
+  .choice { display: none; }
+  .screen { display: none; }
+
+  #lione:checked ~ .screens .one,
+  #litwo:checked ~ .screens .two,
+  #lithree:checked ~ .screens .three,
+  #lifour:checked ~ .screens .four,
+  #lifive:checked ~ .screens .five,
+  #opGamil:checked ~ .screens .opGamil,
+  #opGIthub:checked ~ .screens .opGIthub,
+  #opTelelphone:checked ~ .screens .opTelelphone,
+  #opDiscord:checked ~ .screens .opDiscord {
+    display: block;
+  }
+  #background{
+    width:200px;
+    height:200px;
+    background-color:#84ca07;
+    position:absolute;
+    top:100px;
+  }
+  #effect{
+    position:absolute;
+    top:100px;
+}
+#gameboy{
+    width: 450px;
+    height: 650px;
+    position:absolute;
+left:600px;
+top:0px;
+}
+.button{
+    border: 1px solid rgb(179, 49, 49);
+    padding: 11px;
+    position:absolute;
+}
+.Left{
+    border: 2px solid blue;
+    top: 405.5px;
+    left:705px;
+}
+.Right{
+    border: 2px solid blue;
+    top: 405.5px;
+    left: 752px;
+}
+.Up{
+    border: 2px solid blue;
+    top: 380px;
+    left: 729px;
+}
+.Down{
+    border: 2px solid blue;
+    top: 430px;
+    left: 729px;
+}
+.A{
+    padding:16px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    top: 385px;
+    left: 919px;
+}
+.B{
+    padding:16px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    top: 408px;
+    left: 870px;
+}
+.start{
+    border: 2px solid blue;
+    padding: 5px 20px 5px 20px;
+    transform: rotate(-27deg);
+    border-radius: 20px;
+    left:816px;
+    top: 485px;
+}
