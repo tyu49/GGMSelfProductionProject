@@ -2,7 +2,7 @@
 .choice { display: none; }
 .screen { display: none; }
 .links { display: none; }
-#hidden{display: none;}
+.hidden{display: none;}
 
 #lioff:checked ~ .screens .off,
 #litwo:checked ~ .screens .two,
@@ -58,16 +58,16 @@
   {
     display: block;
   }
-#opSongseven:checked ~ #hidden,
-#opSongeight:checked ~ #hidden
+#opSongseven:checked ~  .hidden,
+#opSongeight:checked ~ .hidden
 {
     font-size:24px;
     color:rgb(108, 108, 148);
     font-weight: bold;
     display: block;
 }
-#opSongnine:checked ~ #hidden,
-#opSongten:checked ~ #hidden
+#opSongnine:checked ~  .hidden,
+#opSongten:checked ~  .hidden
 {
     font-size:24px;
     font-weight: bold;
