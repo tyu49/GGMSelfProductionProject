@@ -77,8 +77,8 @@
 #lioff:checked ~ #effect{
     display:none;
   }
-.screen{
-    font-family: Galmuri11, sans-serif;
+.screen * {
+    font-family: Galmuri11 !important;
     color: rgb(7, 4, 40);
   }
 
