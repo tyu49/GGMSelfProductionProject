@@ -2,7 +2,7 @@
 .choice { display: none; }
 .screen { display: none; }
 .links { display: none; }
-
+#hidden{display: none;}
 
 #lioff:checked ~ .screens .off,
 #litwo:checked ~ .screens .two,
@@ -58,6 +58,22 @@
   {
     display: block;
   }
+#opSongseven:checked ~ #hidden,
+#opSongeight:checked ~ #hidden
+{
+    font-size:24px;
+    color:rgb(108, 108, 148);
+    font-weight: bold;
+    display: block;
+}
+#opSongnine:checked ~ #hidden,
+#opSongten:checked ~ #hidden
+{
+    font-size:24px;
+    font-weight: bold;
+    color:#1981ea;
+    display: block;
+}
 #lioff:checked ~ #effect{
     display:none;
   }
@@ -131,6 +147,13 @@
     border-radius: 20px;
     left:816px;
     top: 485px;
+}
+.select{
+    padding: 5px 20px 5px 20px;
+    transform: rotate(-27deg);
+    border-radius: 20px;
+    left:767.5px;
+    top:486px;
 }
 .area{
     position:absolute;
