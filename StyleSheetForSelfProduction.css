@@ -3,6 +3,7 @@
 .screen { display: none; }
 .links { display: none; }
 .hidden{display: none;}
+.hiddenn{display: none;}
 
 #lioff:checked ~ .screens .off,
 #litwo:checked ~ .screens .two,
@@ -46,6 +47,12 @@
 #opSongeight:checked ~ .screens .opSongeight,
 #opSongnine:checked ~ .screens .opSongnine,
 #opSongten:checked ~ .screens .opSongten,
+#opSongtenone:checked ~ .screens .opSongtenone,
+#opSongtentwo:checked ~ .screens .opSongtentwo,
+#opSongtenthree:checked ~ .screens .opSongtenthree,
+#opSongtenfour:checked ~ .screens .opSongtenfour,
+#opSongtenfive:checked ~ .screens .opSongtenfive,
+#opSongtensix:checked ~ .screens .opSongtensix,
 #opGametwo:checked ~ .screens .opGametwo,
 #opGamethree:checked ~ .screens .opGamethree,
 #opGameone:checked ~ .screens .opGameone,
@@ -64,15 +71,35 @@
     font-size:24px;
     color:rgb(108, 108, 148);
     font-weight: bold;
-    display: block;
+    display: inline;
 }
+#opSongtenone:checked ~ .hidden,
+#opSongtentwo:checked ~ .hidden,
+#opSongtenthree:checked ~ .hidden,
+#opSongtenfour:checked ~ .hidden,
+#opSongtenfive:checked ~ .hidden,
 #opSongnine:checked ~  .hidden,
 #opSongten:checked ~  .hidden
 {
     font-size:24px;
     font-weight: bold;
     color:#1981ea;
-    display: block;
+    display: inline;
+}
+
+#opSongtensix:checked ~ .hidden
+{
+    font-size:24px;
+    font-weight: bold;
+    color:#180c72;
+    display: inline;
+}
+#opSongtensix:checked ~ .hiddenn
+{
+    font-size:24px;
+    font-weight: bold;
+    color:#180c72;
+    display: inline;
 }
 #lioff:checked ~ #effect{
     display:none;
