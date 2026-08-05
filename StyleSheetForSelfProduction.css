@@ -47,6 +47,9 @@
 #opSongeight:checked ~ .screens .opSongeight,
 #opSongnine:checked ~ .screens .opSongnine,
 #opSongten:checked ~ .screens .opSongten,
+#opSongtenseven:checked ~ .screens .opSongtenseven,
+#opSongtennine:checked ~ .screens .opSongtennine,
+#opSongteneight:checked ~ .screens .opSongteneight,
 #opSongtenone:checked ~ .screens .opSongtenone,
 #opSongtentwo:checked ~ .screens .opSongtentwo,
 #opSongtenthree:checked ~ .screens .opSongtenthree,
@@ -66,6 +69,8 @@
     display: block;
   }
 #opSongseven:checked ~  .hidden,
+#opSongtenseven:checked ~  .hidden,
+#opSongteneight:checked ~  .hidden,
 #opSongeight:checked ~ .hidden
 {
     font-size:24px;
@@ -79,6 +84,7 @@
 #opSongtenfour:checked ~ .hidden,
 #opSongtenfive:checked ~ .hidden,
 #opSongnine:checked ~  .hidden,
+#opSongtennine:checked ~  .hidden,
 #opSongten:checked ~  .hidden
 {
     font-size:24px;
