@@ -5,6 +5,10 @@
 .hidden{display: none;}
 .hiddenn{display: none;}
 
+.maxmusic::after{
+    content:"23";
+}
+
 #lioff:checked ~ .screens .off,
 #litwo:checked ~ .screens .two,
 #lione:checked ~ .screens .one,
@@ -56,6 +60,10 @@
 #opSongtenfour:checked ~ .screens .opSongtenfour,
 #opSongtenfive:checked ~ .screens .opSongtenfive,
 #opSongtensix:checked ~ .screens .opSongtensix,
+#opSongtenten:checked ~ .screens .opSongtenten,
+#opSongtententwo:checked ~ .screens .opSongtententwo,
+#opSongtentenone:checked ~ .screens .opSongtentenone,
+#opSongtententhree:checked ~ .screens .opSongtententhree,
 #opGametwo:checked ~ .screens .opGametwo,
 #opGamethree:checked ~ .screens .opGamethree,
 #opGameone:checked ~ .screens .opGameone,
@@ -68,16 +76,21 @@
   {
     display: block;
   }
+
+
 #opSongseven:checked ~  .hidden,
 #opSongtenseven:checked ~  .hidden,
 #opSongteneight:checked ~  .hidden,
-#opSongeight:checked ~ .hidden
+#opSongeight:checked ~ .hidden,
+#opSongtentenone:checked ~ .hidden
 {
     font-size:24px;
     color:rgb(108, 108, 148);
     font-weight: bold;
     display: inline;
 }
+
+
 #opSongtenone:checked ~ .hidden,
 #opSongtentwo:checked ~ .hidden,
 #opSongtenthree:checked ~ .hidden,
@@ -85,6 +98,8 @@
 #opSongtenfive:checked ~ .hidden,
 #opSongnine:checked ~  .hidden,
 #opSongtennine:checked ~  .hidden,
+#opSongtenten:checked ~  .hidden,
+#opSongtententhree:checked ~  .hidden,
 #opSongten:checked ~  .hidden
 {
     font-size:24px;
@@ -105,6 +120,13 @@
     font-size:24px;
     font-weight: bold;
     color:#180c72;
+    display: inline;
+}
+#opSongtenten:checked ~ .hiddenn
+{
+    font-size:24px;
+    font-weight: bold;
+    color:#1981ea;
     display: inline;
 }
 #lioff:checked ~ #effect{
